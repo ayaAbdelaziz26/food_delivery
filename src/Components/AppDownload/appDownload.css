@@ -1,0 +1,29 @@
+.appdownload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.appdownload h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+.appdownload-images{
+    display: flex;
+}
+
+
+@media(max-width:500px){
+    .appdownload h1{
+        font-size: 25px;
+    }
+
+    .appdownload-images img{
+        width: 100px;
+    }
+}

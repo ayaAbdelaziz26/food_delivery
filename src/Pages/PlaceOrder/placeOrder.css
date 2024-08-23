@@ -1,0 +1,42 @@
+.placeorder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.placeorder-left{
+    width: 100%;
+    max-width: max(40%,500px);
+    margin-top: 50px;
+}
+
+.placeorder-left h1{
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.placeorder-inputs{
+    display: flex;
+    gap: 20px;
+}
+
+.placeorder-left input{
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.placeorder-right{
+    width: 100%;
+    max-width: max(25%,500px);
+}
+
+@media(max-width:768px){
+    .placeorder{
+        flex-direction: column;
+    }
+   
+}

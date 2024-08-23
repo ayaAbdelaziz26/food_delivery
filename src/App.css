@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 90%;
+  margin: auto;
+}
+
+button{
+  cursor: pointer;
+  border-radius: 27px;
+  outline: 0;
+  color: rgb(56, 53, 53);
+}

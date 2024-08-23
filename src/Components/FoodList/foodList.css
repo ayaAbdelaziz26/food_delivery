@@ -1,0 +1,27 @@
+.foodlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foodlist-list{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.foodlist h1{
+    margin: 30px 0;
+}
+
+@media(max-width:1024px){
+    .foodlist-list{
+        grid-template-columns: 1fr 1fr;
+     }
+}
+
+
+@media(max-width:530px){
+    .foodlist-list{
+        grid-template-columns: 1fr;
+     }
+}

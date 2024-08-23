@@ -1,0 +1,84 @@
+.loginsignup{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color:#00000090;
+    position: absolute;
+    display: grid;
+    top: 0;
+
+}
+
+.loginsignup-popup{
+    display: flex;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    width: max(35vw,300px);
+    max-height: 700px;
+    place-self: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 10px;
+}
+
+.loginsignup-popup-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginsignup-popup-head img{
+   height: 17px;
+   width: 17px;
+   cursor: pointer;
+}
+
+.loginsignup-popup h1{
+    padding: 15px 0;
+}
+
+.loginsignup-popup-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginsignup-popup-inputs input{
+    height: 45px;
+    padding: 5px;
+    font-size: 17px;
+    margin: 15px 0;
+}
+.loginsignup-popup-condition input{
+    height: 30px;
+    width: 15px;
+    margin: 0 5px;
+}
+
+.loginsignup-popup button{
+    background-color:rgb(255, 166, 0);
+    color: white;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    border-radius: 0;
+}
+
+.loginsignup-popup-condition{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.loginsignup-popup span{
+    font-size: max(1vw,11px);
+    margin: 0 7px;
+}
+
+.loginsignup-popup-sign{
+    color:rgb(255, 166, 0);
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0 5px;
+}

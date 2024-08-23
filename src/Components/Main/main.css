@@ -1,0 +1,59 @@
+.main{
+    background-image: url('../../Assets/header_img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 15px;
+    color: #fff;
+    gap: 15px;
+    height: 70vh;
+    padding: 10px 80px;
+}
+
+.main-headers h1{
+    font-size: max(3.25vw,25px);
+    font-family: sans-serif;
+}
+
+.main-pargraph{
+    font-size:max(1.1vw,16px);
+}
+
+.main-btn button{
+    background-color: #fff;
+    color: black;
+    height: 50px;
+    width: 160px;
+    border: 0;
+    font-size: 17px;
+}
+
+@media(max-width:1400px){
+    .main{
+        height: 80vh;
+    }
+}
+
+@media(max-width:1000px){
+    .main{
+        height: 100vh;
+        padding: 10px 30px;
+    }
+}
+
+@media(max-width:768px){
+
+    .main-btn button{
+        height: 40px;
+        width: 140px;
+    }
+}
+
+@media(max-width:485px){
+    .main{
+        padding: 10px;
+    }
+}
